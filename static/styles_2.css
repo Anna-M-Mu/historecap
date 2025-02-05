@@ -1,0 +1,131 @@
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #556b2f;
+  text-align: center;
+  background-color: #f0f4e1;
+  padding: 15px 40px;
+  margin: 20px auto;
+  border: 2px solid #6b8e23;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+h3 {
+  color: #4f672e;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3e3a36;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #b5a879;
+  border-radius: 6px;
+  background-color: #faf8f2;
+  color: #3e3a36;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #6b8e23;
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out;
+  margin: 10px 5px;
+}
+
+button:first-of-type {
+  /* Commit Button */
+  background-color: #6b8e23;
+  color: white;
+}
+
+button:first-of-type:hover {
+  background-color: #556b2f;
+}
+
+button:last-of-type {
+  /* Close Button */
+  background-color: #b5a879;
+  color: #3e3a36;
+}
+
+button:last-of-type:hover {
+  background-color: #a3926e;
+}
+
+.query-options-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #faf8f2;
+  border-left: 5px solid #6b8e23;
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.query-options-container h3 {
+  margin-bottom: 10px;
+  color: #4f672e;
+}
+
+.query-options-container label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.query-options-container select,
+.query-options-container button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.query-options-container button {
+  background-color: #6b8e23;
+  color: white;
+}
+
+.query-options-container button:hover {
+  background-color: #556b2f;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fbf7f2;
+  border: 1px solid #b5a879;
+  border-radius: 8px;
+  font-size: 16px;
+  white-space: pre-wrap;
+}

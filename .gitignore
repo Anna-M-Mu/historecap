@@ -1,0 +1,28 @@
+# Python virtual environment
+/venv/
+
+# Ignore environment variables file
+.env
+
+# Flask compiled files (just in case)
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js dependencies
+/frontend/node_modules/
+
+# Webpack / Babel output files
+/static/bundle.js
+
+# OS files
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# IDE/editor files
+.idea/              # JetBrains
+.vscode/            # VS Code
+*.swp               # Vim
+
+# Logs
+*.log
